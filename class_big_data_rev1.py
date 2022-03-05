@@ -1,6 +1,4 @@
 import mysql.connector as mysql
-# import psycopg2 as psy
-import os
 
 class CreateDb:
     def _init_(self, host, port, user, password):
